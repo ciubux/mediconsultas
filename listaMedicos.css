@@ -1,0 +1,60 @@
+
+.tarjeta-medico {
+  background:#f1f1f1;
+  font: normal normal normal 13px/21px Arial, Verdana, sans-serif;
+  color: #666;
+  border: 1px dotted #ddd;
+  padding: 21px; 
+  margin: 1% 1% 1%;
+  margin-bottom: 20px;
+  overflow: hidden;
+  width: 40%;
+  float: left;
+/*  display:inline-block;*/
+  position:static;
+}
+
+
+.cuerpo-especialidad {
+  width: 600px;
+/*  background: #BBB;*/
+}
+
+.titulo-especialidad
+{
+  font: normal normal normal 16px/21px Arial, Verdana, sans-serif;
+  color: #666;
+}
+
+
+
+.lista-medico {
+  list-style:none;
+/*  width: 30%;*/
+/*  float: left;*/
+}
+
+
+.avatar {
+  margin-bottom: 21px;
+  padding: 3px;
+  background: #f6f6f6;
+  border: 1px solid #ddd;
+  float: left;
+  width: 75px;
+  height: 75px;
+  margin: 0 15px 6px 0;
+}
+
+
+
+
+/*.foto-medico {
+.cuerpo-especialidad ul {
+list-style:none 
+display: inline;
+}
+}*/
+
+
+
