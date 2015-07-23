@@ -4,25 +4,101 @@
   font: normal normal normal 13px/21px Arial, Verdana, sans-serif;
   color: #666;
   border: 1px dotted #ddd;
-  padding: 21px; 
+  padding: 10px; 
   margin: 1% 1% 1%;
-  margin-bottom: 20px;
+  margin-bottom: 10px;
   overflow: hidden;
   width: 40%;
   float: left;
 /*  display:inline-block;*/
   position:static;
+  border-radius: 0px;
+  -webkit-box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+  -moz-box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+  box-shadow: 2px 2px 5px -1px rgba(0,0,0,0.75);
+}
+
+.divreferencia {
+  float: left;
+  width: 100%;
+  height: 95px
+  background: #AAA;
+  margin-top: 10px;
+}
+
+.referencia-consultame {
+  display: block;
+  width: 100%;
+  height: 25px;
+  margin: 0 auto;
+  line-height: 36px;
+  text-align: center;
+  border: 0;
+  border-radius: 2px;
+  background-color: #4288CC;
+  color: #FFF;
+  float: right;
+/*  font-weight: bold;*/
+  font: bold normal normal 13px/21px Arial, Verdana, sans-serif;
+  text-decoration: none;
+}
+
+
+
+.datos-medico {
+/*  margin-bottom: 21px;*/
+  padding: 3px;
+ width: 150px;
+/*  background:#555;*/
+  height: 95px;
+  float: left;
+}
+
+.nombre-medico {
+  margin-top:0;  
+  font-size:0.875rem;
+  margin-bottom:0;
+  color: #e9bd15
+  padding: 0px;
+/*  background:#A7A333;*/
+}
+
+.cmp-medico {
+/*  background:#999EEE;*/
+}
+
+.imagen-medico {
+  margin-bottom: 21px;
+  padding: 3px;
+  background: #f6f6f6;
+  border: 1px solid #ddd;
+  float: left;
+  width: 85px;
+  height: 95px;
+  margin: 0 5px 0 0;
 }
 
 
 .cuerpo-especialidad {
-  width: 600px;
+  width: 700px;
+
 /*  background: #BBB;*/
+}
+
+ul 
+{
+
+list-style:url(icono.png);
+}
+
+.lista-especialidad {
+/*  background: url(icono.png) left center no-repeat;*/
+
 }
 
 .titulo-especialidad
 {
-  font: normal normal normal 16px/21px Arial, Verdana, sans-serif;
+  font: bold normal normal 16px/21px Arial, Verdana, sans-serif;
   color: #666;
 }
 
@@ -35,16 +111,7 @@
 }
 
 
-.avatar {
-  margin-bottom: 21px;
-  padding: 3px;
-  background: #f6f6f6;
-  border: 1px solid #ddd;
-  float: left;
-  width: 75px;
-  height: 75px;
-  margin: 0 15px 6px 0;
-}
+
 
 
 
