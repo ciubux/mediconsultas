@@ -87,8 +87,8 @@
 
 ul 
 {
-
-list-style:url(icono.png);
+list-style:none 
+/*list-style:url(icono.png);*/
 }
 
 .lista-especialidad {
